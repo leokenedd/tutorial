@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando uma nova APN</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #000;
+        }
+        .title-sessions {
+            color: #FF0000;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        section {
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow: auto;
+            text-align: center;
+        }
+        .text-default-black {
+            color: #000;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .apntxt {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="w-full mt-13 text-[#FF0000] title-sessions">Criando uma nova APN</h1>
+    <section class="w-full h-full mt-3 mb-3 px-3 overflow-auto text-center">
+        <p class="text-black text-default-black">
+            <b>Seu aplicativo não conecta ou não gera dados? Siga os passos abaixo para resolver.</b>
+        </p>
+        <p class="text-black text-default-black">
+            <i>Para criar uma nova APN, siga estas etapas:</i><br><br>
+            1. Acesse as configurações do seu dispositivo.<br>
+            2. Vá para "Redes" ou "Conexões".<br>
+            3. Selecione "Redes Móveis" ou "Nomes de Pontos de Acesso" (APN).<br>
+            4. Toque em "Adicionar" (+) para criar uma nova APN.<br>
+            5. Preencha os campos com estas informações da APN da VIVO:<br><br>
+            <b class="apntxt">
+                Nome: MVTUNNEL<br>
+                APN: smart.m2m.vivo.com.br<br>
+                Proxy: Não definido<br>
+                Porta: Não definido<br>
+                Nome de usuário: vivo<br>
+                Senha: vivo<br>
+                Tipo de autenticação: CHAP<br>
+                Protocolo APN: IPv4<br>
+                Protocolo de roaming de APN: IPv4
+            </b><br><br>
+            Salve a apn nova e pronto! Sua nova APN da VIVO está configurada. Selecione-a como padrão para usar.
+        </p>
+    </section>
+</body>
+</html>
